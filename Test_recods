@@ -1,0 +1,14 @@
+####Case-1 
+(base) 197NODMB22366:Project annu$ ./searchflights.pl -o YYZ -d YYC
+YYZ --> YYC (6/15/2014 6:45:00 --> 6/15/2014 8:54:00) - $578.00
+YYZ --> YYC (6/22/2014 12:00:00 --> 6/22/2014 14:09:00) - $630.00
+(base) 197NODMB22366:Project annu$ 
+
+####Case-2
+(base) 197NODMB22366:Project annu$ ./searchflights.pl -o YYZ 
+Please pass all mandatory arguments
+Args:
+-o - Origin, mandatory
+-d - Destination, mandatory
+Usage: ./searchflights.pl -o {Origin} -d {Destination}(base) 197NODMB22366:Project annu$ 
+
